@@ -71,10 +71,10 @@ cd apps/shop-app && npm install && cd ../..
 ## Step 4 — Install Playwright browsers
 
 ```bash
-npx playwright install --with-deps chromium
+npx playwright install --with-deps
 ```
 
-This downloads Chromium (~150 MB). Do this on a good connection.
+This downloads the browsers. Do this on a good connection.
 
 Confirm it worked:
 
