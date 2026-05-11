@@ -46,7 +46,7 @@ npm --version    # 10.x.x or higher
 
 ```bash
 git clone https://github.com/omhs-dev/E2E-playwright-workshop.git
-cd playwright-workshop
+cd E2E-playwright-workshop
 ```
 
 ---
