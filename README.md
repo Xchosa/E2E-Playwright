@@ -48,11 +48,9 @@ npm --version    # 10.x.x or higher
 ## Step 2 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_ORG/playwright-workshop.git
+git clone https://github.com/omhs-dev/E2E-playwright-workshop.git
 cd playwright-workshop
 ```
-
-> Replace `YOUR_ORG/playwright-workshop` with the actual repo URL (shared on workshop day).
 
 ---
 
@@ -160,15 +158,6 @@ Make sure both apps are running (Step 5) before running tests.
 
 ### macOS security warning on Playwright binary
 Run: `xattr -d com.apple.quarantine ~/.cache/ms-playwright/chromium-*/chrome-mac/Chromium.app`
-
----
-
-## Quick reference — test credentials
-
-| App | Email | Password |
-|-----|-------|---------|
-| Auth App | `admin@test.com` | `password123` |
-| Auth App | `user@test.com` | `secret456` |
 
 ---
 
