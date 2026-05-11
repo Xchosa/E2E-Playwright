@@ -1,7 +1,4 @@
-# 🛠️ Workshop Setup Guide
-
-> Complete this **before** the workshop day. It takes about 10–15 minutes.
-> If anything fails, message the organiser with the error output.
+# Workshop Setup Guide
 
 ---
 
