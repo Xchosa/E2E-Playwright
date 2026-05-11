@@ -113,7 +113,6 @@ npx playwright show-report                   # open last HTML report
 |-----|-----|-------|---------|
 | Auth App | localhost:5173 | `admin@test.com` | `password123` |
 | Auth App | localhost:5173 | `user@test.com` | `secret456` |
-| Juice Shop | localhost:3000 | `admin@juice-sh.op` | `admin123` |
 
 ---
 
