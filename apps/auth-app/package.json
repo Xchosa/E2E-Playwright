@@ -1,0 +1,15 @@
+{
+  "name": "auth-app",
+  "version": "1.0.0",
+  "description": "Authentication micro-app for E2E Playwright Workshop",
+  "main": "auth.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vue-router": "^5.0.6"
+  }
+}

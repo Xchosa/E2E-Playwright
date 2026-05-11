@@ -1,0 +1,14 @@
+{
+  "name": "shop-app",
+  "version": "1.0.0",
+  "description": "Vue.js e-commerce shop app for E2E Playwright Workshop",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite --port 5174"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vue-router": "^5.0.6"
+  }
+}
