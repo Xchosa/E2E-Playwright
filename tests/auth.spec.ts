@@ -10,8 +10,8 @@ test.describe('Login', () => {
 	})
 
 	// test 1
-	test('login', async ({ page }) => {
-		await expect(page.getByTestId('id-name')).toBeVisible()
+	test('login is visable', async ({ page }) => {
+		await expect(page.getByTestId('email-input')).toBeVisible()
 		await expect(page.getByTestId('password-input')).toBeVisible()
 		await expect(page.getByTestId('login-button')).toBeVisible()
 	})
@@ -22,11 +22,15 @@ test.describe('Login', () => {
 	})
 
 	test('test text content', async ({ page}) => {
-		await expect(page.getByTestId('id-name-message')).toHaveText('Invalid credentials')
+		await page.getByTestId('login-button').click();
+		await expect(page.getByTestId('error-message')).toHaveText('Invalid credentials')
 	})
 
 	test('test syntax ', async ({page}) => {
-		await expect(page.getByTestId('email-input')).toHaveValue('test@test.com')
+		await page.getByTestId('email-input').fill('test.com');
+		await expect(page.getByRole( "button", {name: 'Add to cart'}).click());
+		await page.getByTestId('login-button').click();
+		await expect(page.getByTestId('error-message')).toHaveText('Invalid credentials')
 	})
 
 	// test 2
